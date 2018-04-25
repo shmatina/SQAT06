@@ -58,13 +58,13 @@ When('I sign up with valid credentials', function(callback) {
   })
 })
 
-Then('I should see the search results', function(callback) {
-  this.browser
-    .getTitle().then(function(result){
-        result.should.equal("WebdriverIO at DuckDuckGo");
-        callback();
-  }).catch(function(error){
-    callback(error);
-  })
-})
+//Then('I should see the search results', function(callback) {
+  //this.browser
+   // .getTitle().then(function(result){
+    //    result.should.equal("WebdriverIO at DuckDuckGo");
+     //   callback();
+ // }).catch(function(error){
+  //  callback(error);
+ // })
+//})
 
