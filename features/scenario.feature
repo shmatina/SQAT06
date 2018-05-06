@@ -1,9 +1,7 @@
-Feature: Simple maths
-  In order to do maths
-  As a developer
-  I want to increment variables
+Feature: Figure 1
+ I Search Figure 1
 
-  Scenario: easy maths
-    Given I go to duck duck go
-    When  I search for WebdriverIO
-    Then  I should see the search results
+  Scenario: search Figure 1
+    Given I go to Figure 1 
+    When  I sign up with valid credentials
+    Then  I should logged into the page
